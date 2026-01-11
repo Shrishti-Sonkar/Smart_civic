@@ -1,73 +1,113 @@
-# Welcome to your Lovable project
+# 🏙️ Smart Civic – AI-Powered Civic Complaint System
 
-## Project info
+Smart Civic is an AI-driven web application designed to simplify and modernize the process of civic complaint filing. The system intelligently identifies sanitation issues from images, supports multilingual users, captures location details, and auto-generates properly formatted complaints for municipal authorities.
 
-**URL**: https://lovable.dev/projects/895c810f-eebc-4f82-99d3-cbff3eb84f36
+🏆 **This project was developed during HackQuest 2025**, held at **UIT Allahabad**, where it secured **9th position** among participating teams.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🚀 Features
 
-**Use Lovable**
+- 🧠 **AI-based Image Classification**  
+  Detects sanitation issues (garbage, waste, cleanliness problems) using a deep learning model.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/895c810f-eebc-4f82-99d3-cbff3eb84f36) and start prompting.
+- 🌐 **Multilingual Support**  
+  Enables citizens to file complaints in multiple languages.
 
-Changes made via Lovable will be committed automatically to this repo.
+- 📍 **Location Capture**  
+  Supports GPS-based and manual location input.
 
-**Use your preferred IDE**
+- 📝 **Auto-generated Complaints**  
+  Automatically formats complaints suitable for municipal corporations.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- 🖥️ **User-Friendly Web Interface**  
+  Simple and accessible UI built for ease of use.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🏆 Hackathon Recognition
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- **Event:** HackQuest 2025  
+- **Venue:** United Institute of Technology (UIT), Allahabad  
+- **Achievement:** 🥉 Secured **9th Position**  
+- **Category:** Smart City / Civic-Tech Solutions  
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+This project was built under time constraints with a focus on real-world impact, innovation, and scalability for smart city initiatives.
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 🏗️ System Architecture
 
-**Edit a file directly in GitHub**
+1. User uploads an image of a civic issue  
+2. AI model classifies the issue type  
+3. User selects language and provides location details  
+4. System generates a structured civic complaint  
+5. Complaint is ready for submission to authorities  
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 🛠️ Tech Stack
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Frontend
+- HTML
+- CSS
+- JavaScript
 
-## What technologies are used for this project?
+### Backend
+- Python
+- Flask
 
-This project is built with:
+### Machine Learning
+- TensorFlow / Keras  
+- MobileNetV2 (Image Classification)
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### Other Tools & Libraries
+- OpenCV  
+- NumPy  
+- Google Translate API (for multilingual support)
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/895c810f-eebc-4f82-99d3-cbff3eb84f36) and click on Share -> Publish.
+## 📂 Project Structure
 
-## Can I connect a custom domain to my Lovable project?
+Smart_civic/
+│
+├── static/ # CSS, JavaScript, assets
+├── templates/ # HTML templates
+├── model/ # Trained ML model
+├── app.py # Flask application
+├── requirements.txt # Python dependencies
+└── README.md
 
-Yes it is!
+yaml
+Copy code
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## ⚙️ Installation & Setup
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/Shrishti-Sonkar/Smart_civic.git
+cd Smart_civic
+Create a virtual environment (optional but recommended)
+
+bash
+Copy code
+python -m venv venv
+venv\Scripts\activate   # Windows
+Install dependencies
+
+bash
+Copy code
+pip install -r requirements.txt
+Run the application
+
+bash
+Copy code
+python app.py
+Open your browser and visit:
+
+cpp
+Copy code
+http://127.0.0.1:5000
